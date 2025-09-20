@@ -1,0 +1,32 @@
+.about-page {
+  padding: 40px;
+  text-align: center;
+}
+
+.about-page h1 {
+  font-size: 2.2rem;
+  margin-bottom: 15px;
+}
+
+.about-page p {
+  max-width: 700px;
+  margin: 0 auto 30px;
+  color: #555;
+  font-size: 1.1rem;
+}
+
+.about-highlights {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.about-card {
+  background: #fff;
+  padding: 20px 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-size: 1.1rem;
+  font-weight: bold;
+}

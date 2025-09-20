@@ -1,0 +1,77 @@
+[
+  {
+    "name": "iPhone 15 Pro",
+    "price": 1199,
+    "imageUrl": "https://imgs.search.brave.com/sco59FnJ_91oyqXr74UM2XPmHxfMmsq-UPy6afOzy2U/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudG9paW1nLmNv/bS90aHVtYi9yZXNp/emVtb2RlLTQsbXNp/ZC04NjE2OTMwOCxp/bWdzaXplLTIwMCx3/aWR0aC02MDAsaW1n/di00Lzg2MTY5MzA4/LmpwZw"
+  },
+  {
+    "name": "Samsung Galaxy S23",
+    "price": 1099,
+    "imageUrl": "https://imgs.search.brave.com/y4TAx7OXB36C_r-YQMGs-L5wk3ciC3CSYfO5JKBk1j8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9wbGF5/LWxoLmdvb2dsZXVz/ZXJjb250ZW50LmNv/bS9HbnpKT2VNV1Vf/UHBWMjlDUjFQRjNf/Wlh6NlE3eF90aDJo/Nkxrcjl5ZHQ2N0Y0/X3ZOd1lxSE1IbWdn/eE8yZ3I0OFE9dzI1/Ng"
+  },
+  {
+    "name": "MacBook Air M2",
+    "price": 1299,
+    "imageUrl": "https://imgs.search.brave.com/2o9yAAAiAhGNo5zYAJdnUJicVDnYK6zBCJsBxGFU_vk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzA1LzUwLzczLzYx/LzM2MF9GXzU1MDcz/NjE1M182dEdNTXBk/UGJ4a3c0cHVDMmlj/YWg0UmpYUlZWaFJE/cC5qcGc"
+  },
+  {
+    "name": "LG OLED TV 55",
+    "price": 1255,
+    "imageUrl": "https://imgs.search.brave.com/hFOoYSxgBw4jZ9F0Sew7pBL9ET4M4fiq2p-cp7pDP5s/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/bGcuY29tL2NvbnRl/bnQvZGFtL2NoYW5u/ZWwvd2Ntcy91ay9p/bWFnZXMvdHZzL09M/RUQ1NUMzNExBX0FF/S19FRVVLX1VLX0Mv/Z2FsbGVyeS8xNjAw/eDEwNjJfT0xFRDU1/QzM0TEFfd2ViT1Nf/NC5qcGc"
+  },
+  {
+    "name": "Apple Watch Ultra",
+    "price": 799,
+    "imageUrl": "https://imgs.search.brave.com/lLZ_A5iuTklRIfbdm9ZJAkMzKqGeJ3ZiqONUjQY_N1Y/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJhY2Nlc3Mu/Y29tL2Z1bGwvOTU2/NTc4Mi5qcGc"
+  },
+  {
+    "name": "nokia 3310",
+    "price": 50,
+    "imageUrl": "https://imgs.search.brave.com/3SUdOE9PZyrmF-XB6IizKlBXiC76FLesvOzGKCiF1GA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDEwNTgw/ODIyLmpwZw"
+  },
+  {
+    "name": "Samsung QLED TV 65\"",
+    "price": 1599,
+    "imageUrl": "https://imgs.search.brave.com/l3cJ5wAaNS9wY_NQ97gQpxzB9bNBtB0hQQA7rrFf1AM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/OTEyVUdYSXVXbkwu/anBn"
+  },
+  {
+    "name": "PlayStation 5",
+    "price": 499,
+    "imageUrl": "https://imgs.search.brave.com/9lly3udNFWkRkusDOkWLXXqAgl5YHkpCN1wpSRKJla8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/cG5nYWxsLmNvbS93/cC1jb250ZW50L3Vw/bG9hZHMvNS9QbGF5/U3RhdGlvbi01LVBO/Ry1QaWMucG5n"
+  },
+  {
+    "name": "Xbox Series X",
+    "price": 499,
+    "imageUrl": "https://imgs.search.brave.com/CULYh-VJRvgEUxAATwU1fEESKBqPp4K9X0825kQPWho/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJhY2Nlc3Mu/Y29tL2Z1bGwvMjkw/NzYwOS5qcGc"
+  },
+  {
+    "name": "Nintendo Switch OLED",
+    "price": 349,
+    "imageUrl": "https://imgs.search.brave.com/hplfFry3IUywUVCCktkQiV_113GntQUP4Bb4QnkZ2Js/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMtbmEuc3NsLWlt/YWdlcy1hbWF6b24u/Y29tL2ltYWdlcy9J/LzcxZi1xclpQTXJM/LmpwZw"
+  },
+  {
+    "name": "Razer Blade 15",
+    "price": 1899,
+    "imageUrl": "https://imgs.search.brave.com/6-DnPdTvyRaSluj86rp1_zrD8DBGepeSuRwd-kcF8Z4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDM5MzAx/MjkuanBn"
+  },
+  {
+    "name": "Logitech MX Master 3S",
+    "price": 99,
+    "imageUrl": "https://imgs.search.brave.com/0yXC1o07kQOmrXrh1g_G34uxl4JnLR2fEJ0-cM1qMH8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/MzFrT1B2dVlYTEwu/anBn"
+  },
+  {
+    "name": "Mechanical Keyboard",
+    "price": 149,
+    "imageUrl": "https://imgs.search.brave.com/TGWUVo7HdllCTzyfgnFJdL8LJrcEmPgv1499sTO9dKo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJhY2Nlc3Mu/Y29tL2Z1bGwvNjQz/MjQ4OS5qcGc"
+  },
+  {
+    "name": "MSI Katana gf66",
+    "price": 1449,
+    "imageUrl": "https://imgs.search.brave.com/faN4ynZbu23AFFV6NW0ddwaZcDIVh0L3FkZ1Yqc0cWs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdG9y/YWdlLWFzc2V0Lm1z/aS5jb20vZ2xvYmFs/L3BpY3R1cmUvaW1h/Z2UvZmVhdHVyZS9u/Yi9HRi9LYXRhbmEt/R0Y2Ni9pbWFnZXMv/a2V5Ym9hcmQtbGFw/dG9wMS5qcGc"
+  },
+  {
+    "name": "JBL Bluetooth Speaker",
+    "price": 129,
+    "imageUrl": "https://imgs.search.brave.com/vzzdOJsusP8RLO23bWdbj8kQicozpkfiJQ3_daJYTzo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMucGV4ZWxzLmNv/bS9waG90b3MvOTc2/NzU0OS9wZXhlbHMt/cGhvdG8tOTc2NzU0/OS5qcGVnP2F1dG89/Y29tcHJlc3MmY3M9/dGlueXNyZ2ImZHBy/PTEmdz01MDA"
+  }
+]

@@ -1,0 +1,221 @@
+/* 🌐 Base Container */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #4f46e5, #22c55e, #06b6d4);
+  font-family: "Poppins", Arial, sans-serif;
+  padding: 20px;
+}
+
+/* 🧊 Login Box */
+.login-box {
+  width: 100%;
+  max-width: 400px;
+  padding: 30px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+/* 🔖 Logo */
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.logo-icon {
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(135deg, #f59e0b, #ef4444);
+  color: white;
+  font-size: 28px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  margin-bottom: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.logo-text {
+  font-size: 22px;
+  font-weight: bold;
+  color: #111827;
+}
+
+.logo-img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+/* 📝 Title */
+.title {
+  font-size: 26px;
+  font-weight: bold;
+  margin: 20px 0;
+  color: #4f46e5;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* 📄 Form */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  text-align: left;
+}
+
+label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #374151;
+}
+
+input {
+  padding: 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+input:focus {
+  border-color: #4f46e5;
+  box-shadow: 0 0 8px rgba(79, 70, 229, 0.4);
+  outline: none;
+}
+
+/* 🎯 Button */
+button {
+  background: linear-gradient(90deg, #4f46e5, #22c55e);
+  color: white;
+  padding: 12px;
+  font-size: 15px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* 🔗 Links */
+.signup-text,
+.forgot-link {
+  margin-top: 15px;
+  font-size: 14px;
+  text-align: center;
+  color: #374151;
+}
+
+.signup-text a,
+.forgot-link a {
+  color: #ef4444;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.signup-text a:hover,
+.forgot-link a:hover {
+  color: #f59e0b;
+  text-decoration: underline;
+}
+
+.forgot-link {
+  text-align: right;
+  margin-top: 6px;
+}
+
+/* 🎬 Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* 📱 Responsive Design */
+@media (max-width: 768px) {
+  .login-box {
+    padding: 20px;
+  }
+
+  .title {
+    font-size: 22px;
+  }
+
+  input,
+  button {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .login-container {
+    padding: 10px;
+  }
+
+  .login-box {
+    padding: 15px;
+  }
+
+  .logo-text {
+    font-size: 18px;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+
+  input {
+    font-size: 13px;
+    padding: 8px;
+  }
+
+  button {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .signup-text,
+  .forgot-link {
+    font-size: 12px;
+  }
+}
+
+
+.back-home {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.back-home a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.back-home a:hover {
+  text-decoration: underline;
+}

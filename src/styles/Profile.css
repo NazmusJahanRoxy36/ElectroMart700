@@ -1,0 +1,130 @@
+/* src/styles/Profile.css */
+
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #4f46e5, #22c55e, #06b6d4);
+  min-height: 100vh;
+}
+
+.profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.profile-box {
+  background-color: rgb(148, 215, 194);
+  border-radius: 15px;
+  padding: 30px 40px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.profile-box:hover {
+  transform: translateY(-10px);
+}
+
+.logo-img {
+  width: 90px;
+  margin-bottom: 15px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(102, 126, 234, 0.6);
+}
+
+.logo-text {
+  font-size: 28px;
+  font-weight: 700;
+  color: #444;
+  margin-bottom: 25px;
+  letter-spacing: 2px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.profile-info p {
+  font-size: 18px;
+  color: #555;
+  margin: 12px 0;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 8px;
+}
+
+.profile-info p:last-child {
+  border-bottom: none;
+}
+
+.logout-btn {
+  margin-top: 30px;
+  background: #ff4d4f;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  padding: 12px 0;
+  width: 100%;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  box-shadow: 0 4px 12px rgba(255, 77, 79, 0.6);
+  transition: background-color 0.3s ease;
+}
+
+.logout-btn:hover {
+  background: #e04344;
+}
+
+/* 🔴 Back to Homepage link style */
+.back-home-link {
+  color: rgb(199, 17, 86) !important;
+  font-weight: 600;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* Responsive Design */
+
+@media (max-width: 480px) {
+  .profile-box {
+    padding: 25px 20px;
+  }
+
+  .logo-text {
+    font-size: 22px;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+
+  .profile-info p {
+    font-size: 16px;
+  }
+
+  .logout-btn {
+    font-size: 16px;
+    padding: 10px 0;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .profile-box {
+    max-width: 350px;
+    padding: 30px 30px;
+  }
+}

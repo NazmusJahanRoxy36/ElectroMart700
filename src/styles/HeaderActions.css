@@ -1,0 +1,167 @@
+/* 🌐 Search Bar */
+.search-bar {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.search-bar input {
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px 0 0 20px;
+  outline: none;
+  font-size: 14px;
+}
+
+.search-bar button {
+  background: #007bff;
+  border: none;
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 0 20px 20px 0;
+  cursor: pointer;
+}
+
+.search-bar button i {
+  font-size: 14px;
+}
+
+/* 🔐 Auth Buttons */
+.auth-buttons {
+  display: flex;
+  gap: 10px;
+  margin-right: 15px;
+}
+
+.auth-btn {
+  text-decoration: none;
+  background: #007bff;
+  color: white;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 14px;
+  transition: 0.3s;
+  white-space: nowrap;
+}
+
+.auth-btn.signup {
+  background: #28a745;
+}
+
+.auth-btn:hover {
+  opacity: 0.9;
+}
+
+/* 🛒 Cart & User Buttons */
+.auth-cart {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.cart-btn,
+.user-btn {
+  cursor: pointer;
+  position: relative;
+  font-size: 18px;
+  border: none;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+/* Cart Button Specific */
+.cart-btn {
+  background: red;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 5px;
+}
+
+.cart-btn .cart-count {
+  position: absolute;
+  top: -5px;
+  right: -8px;
+  background: white;
+  color: red;
+  border-radius: 50%;
+  font-size: 12px;
+  padding: 2px 6px;
+}
+
+/* User Button */
+.user-btn {
+  background: none;
+  color: #333;
+  padding: 6px;
+}
+
+/* Wrapper for header actions */
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+/* 📱 Responsive Design */
+@media (max-width: 768px) {
+  .search-bar {
+    flex: 1 1 100%;
+    margin: 10px 0;
+    justify-content: center;
+  }
+
+  .auth-buttons {
+    flex: 1 1 100%;
+    justify-content: center;
+    margin: 10px 0;
+  }
+
+  .auth-cart {
+    justify-content: center;
+    flex: 1 1 100%;
+  }
+
+  .header-actions {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 15px;
+  }
+
+  .search-bar input {
+    width: 70%;
+    font-size: 13px;
+  }
+
+  .auth-btn {
+    font-size: 13px;
+    padding: 6px 12px;
+  }
+
+  .cart-btn,
+  .user-btn {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .search-bar input {
+    width: 100%;
+  }
+
+  .auth-buttons {
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .header-actions {
+    gap: 10px;
+  }
+
+  .auth-cart {
+    flex-direction: column;
+    gap: 8px;
+  }
+}
